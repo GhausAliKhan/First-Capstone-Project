@@ -16,109 +16,180 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- DOCUMENT TITLE -->
-    <title>MotoGp</title>
+    <title>MotoGp | Home</title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
-        <nav class="toolbar">
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="toolbar-menu">
-                <li class="menu-item"><a class="menu-link" href="about.html">About</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Program</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Join</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Sponsor</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">News</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">MotoGP Bikes</a></li>
+        <div class="topnav">
+            <a href="https://www.facebook.com/MotoGP">
+                <i class="fa-brands fa-2x fa-facebook-f  text-white"></i>
+            </a>
+            <a href="https://twitter.com/MotoGP">
+                <i class="fa-brands fa-2x fa-twitter  text-white"></i>
+            </a>
+            <ul class="topnavList">
+                <li>English</li>
+                <li>Home</li>
+                <li>Logout</li>
             </ul>
-            <a href="index.html"><img src="./Images/logo.png" alt="Logo" width="70" height="70"></a>
-
+        </div>
+        <nav>
+            <img src="./Images/menu.png" alt="Menu" class="menuOpen">
+            <a href="./index.html"><img src="./Images/logo.png" alt="MotoGp Logo" class="MotoGp-Logo"></a>
+            <ul class="mobileList">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#bookTickets">Book</a></li>
+                <li><a href="#Top-riders">Riders</a></li>
+                <li><a href="#sponsor">Sponsors</a></li>
+            </ul>
+            <ul class="deskList">
+                <li><a href="about.html" class="orangeBtn">About</a></li>
+                <li><a href="#activities" class="blackBtn">Activities</a></li>
+                <li><a href="#bookTickets" class="blackBtn">Book</a></li>
+                <li><a href="#Top-riders" class="blackBtn">Riders</a></li>
+                <li><a href="#sponsor" class="blackBtn">Sponsors</a></li>
+                <li>
+                    <button type="button" class="MotoGp-Bikes">
+                        <a class="text-dark" href="https://www.motogp.com/">MotoGP Bikes</a>
+                    </button>
+                </li>
+            </ul>
         </nav>
     </header>
-    <section class="headline">
-        <div class="container pt-4">
-            <h1><i>Moto Gp Championship races 2023</i></h1>
-            <p>
-                Grand Prix motorcycle racing is the premier class of motorcycle road racing events held on road circuits
-                sanctioned by the Fédération Internationale de Motocyclisme
-            </p>
-            <time datetime="2023-08-28 12:00">2023.08.28(MON) ~ 30(WED)</time>
-        </div>
-    </section>
-    <section class="activities pb-5">
-        <div class="container">
-            <h2>Activities</h2>
-            <div class="col-sm-12 activity">
-                <div class="col-2 icon">
-                    <i class="fa-sharp fa-2x fa-solid fa-road"></i>
-                </div>
-                <div class="col-2">
-                    <h5>Guided Track Tour</h5>
-                </div>
-                <div class="col-8">
+
+    <main>
+        <section class="headline">
+            <div class="container">
+                <h2 class="sharingWorld">"Hello! Sharing world!"</h2>
+                <h1 class="mainTitle">MOTOGP CHAMPIONSHIP RACES 2023</h1>
+                <div class="detailMotoGp my-3">
                     <p>
-                        Experience a lap of MotoGP circuit from the riders's perspective with our unique Track Tour
+                        Grand Prix motorcycle racing is the premier class of motorcycle road racing events held on road
+                        circuits sanctioned by the Fédération Internationale de Motocyclisme
                     </p>
                 </div>
+                <h2 class="date">2023.08.15(TUE) ~ 20(SUN)</h2>
+                <p class="location">@Deodoro, to the west of Rio de Janeiro</p>
             </div>
-            <div class="col-sm-12 activity">
-                <div class="col-2 icon">
-                    <i class="fa-solid fa-2x fa-person-walking"></i>
+        </section>
+
+        <section class="activities pb-5" id="activities">
+            <div class="activitiesTitle">
+                <h2>Activities</h2>
+            </div>
+            <div class="dash"></div>
+            <div class="container" id="bookTickets">
+
+                <div class="col-sm-12 activity">
+                    <div class="col-sm-2 col-md-12 icon">
+                        <i class="fa-sharp fa-3x fa-solid fa-road"></i>
+                    </div>
+                    <div class="col-sm-2 col-md-12">
+                        <h5>Track Tour</h5>
+                    </div>
+                    <div class="col-sm-8 col-md-12">
+                        <p>
+                            Experience a lap of MotoGP circuit from the riders's perspective with our unique Track
+                            Tour
+                        </p>
+                    </div>
                 </div>
-                <div class="col-2">
-                    <h5>Pit Lane Walk</h5>
+                <div class="col-sm-12 activity">
+                    <div class="col-sm-2 col-md-12 icon">
+                        <i class="fa-solid fa-3x fa-person-walking mx-2"></i>
+                    </div>
+                    <div class="col-sm-2 col-md-12">
+                        <h5>Pit Walk</h5>
+                    </div>
+                    <div class="col-sm-8 col-md-12">
+                        <p>
+                            Beat the crowds with an Exclusive Pit Lane Walk, which takes place on Thursday
+                        </p>
+                    </div>
                 </div>
-                <div class="col-8">
-                    <p>
-                        Beat the crowds with an Exclusive Pit Lane Walk, which takes place on Thursday
-                    </p>
+                <div class="col-sm-12 activity">
+                    <div class="col-sm-2 col-md-12 icon">
+                        <i class="fa-sharp fa-3x fa-solid fa-camera"></i>
+                    </div>
+                    <div class="col-sm-2 col-md-12">
+                        <h5>Insider Access</h5>
+                    </div>
+                    <div class="col-sm-8 col-md-12">
+                        <p>
+                            Get a behind the scenes look at how MotoGP works. Get exclusive walkthrough
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 activity">
+                    <div class="col-sm-2 col-md-12 icon">
+                        <i class="fa-solid fa-3x fa-martini-glass-empty"></i>
+                    </div>
+                    <div class="col-sm-2 col-md-12">
+                        <h5>Paddock Club</h5>
+                    </div>
+                    <div class="col-sm-8 col-md-12">
+                        <p>
+                            Enjoy drinks in the exclusive surrounds of the MotoGP Paddock Club
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 activity">
+                    <div class="col-sm-2 col-md-12 icon">
+                        <i class="fa-sharp fa-3x fa-solid fa-ranking-star"></i>
+                    </div>
+                    <div class="col-sm-2 col-md-12">
+                        <h5>Private Podium</h5>
+                    </div>
+                    <div class="col-sm-8 col-md-12">
+                        <p>
+                            Pay a special visit to the podium and imagine what it feels like to win a Grand Prize!
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 activity">
-                <div class="col-2 icon">
-                    <i class="fa-sharp fa-2x fa-solid fa-camera"></i>
-                </div>
-                <div class="col-2">
-                    <h5>Insider Access</h5>
-                </div>
-                <div class="col-8">
-                    <p>
-                        Get a behind the scenes look at how MotoGP works
-                    </p>
-                </div>
+            <div>
+                <button type="button" class="bookTickets">
+                    <a href="https://tickets.motogp.com/en/" class="text-white text-decoration-none">Book
+                        Your Tickets
+                        Now</a>
+                </button>
             </div>
-            <div class="col-sm-12 activity">
-                <div class="col-2 icon">
-                    <i class="fa-solid fa-2x fa-martini-glass-empty"></i>
-                </div>
-                <div class="col-2">
-                    <h5>Paddock Club</h5>
-                </div>
-                <div class="col-8">
-                    <p>
-                        Enjoy drinks in the exclusive surrounds of the MotoGP Paddock Club
-                    </p>
-                </div>
+        </section>
+
+        <section class="topRiders" id="Top-riders">
+            <h2 class="ridersHead">MotoGP Riders</h2>
+            <div class="dash"></div>
+            <div class="riderContainer">
+
             </div>
-            <div class="col-sm-12 activity">
-                <div class="col-2 icon">
-                    <i class="fa-sharp fa-2x fa-solid fa-ranking-star"></i>
-                </div>
-                <div class="col-2">
-                    <h5>Private Podium</h5>
-                </div>
-                <div class="col-8">
-                    <p>
-                        Pay a special visit to the podium and imagine what it feels like to win a Grand Prize!
-                    </p>
-                </div>
+        </section>
+
+        <section class="sponsor pt-4" id="sponsor">
+            <h2 class="sponsorTitle">Sponsors</h2>
+            <div class="dash"></div>
+            <div class="sponsorList">
+                <img src="./Images/shell-logo.png" alt="Shell" class="sponsors">
+                <img src="./Images/harman-logo.png" alt="Harman" class="sponsors">
+                <img src="./Images/redbull.png" alt="RedBull" class="sponsors">
+                <img src="./Images/Ray-Ban-Logo.png" alt="Ray-ban" class="sponsors">
+                <img src="./Images/monster-energy.png" alt="Monster Energy" class="sponsors">
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="footerHead">&COPY; MOTOGP</h2>
+        <p class="copyright">
+            2023 MotoGP. <br class="rights">
+            All Rights Reserved
+            <span class="lorem"><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+            </span>
+        </p>
+    </footer>
 
 
     <!-- BOOTSTRAP 5.0.2 SCRIPT -->
