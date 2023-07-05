@@ -88,6 +88,7 @@ nav {
   background-image: url(./images/textBackground.jpg);
   background-position: center;
   background-size: cover;
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -538,10 +539,12 @@ footer {
     font-family: "Lato", sans-serif;
     cursor: pointer;
   }
+
   .dash {
     width: 5%;
     margin-bottom: 3%;
   }
+
   .headline {
     background-image: url(./Images/background-home.jpg);
     padding-top: 10%;
