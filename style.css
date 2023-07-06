@@ -277,6 +277,10 @@ nav {
   padding-bottom: 10%;
 }
 
+.sponsorList img {
+  filter: grayscale(1);
+}
+
 .sponsors {
   width: 30%;
   margin-bottom: 5%;
@@ -334,15 +338,19 @@ footer {
   line-height: 1.5rem;
 }
 
+.aboutDetailspan {
+  display: none;
+}
+
 .contact {
   text-align: center;
   width: 80%;
   color: #535353;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.5rem;
 }
 
-.contact a {
+.about a {
   color: black;
   font-weight: 700;
 }
@@ -675,6 +683,10 @@ footer {
     font-size: 1.2rem;
     width: 60%;
     margin-top: 3%;
+  }
+
+  .aboutDetailspan {
+    display: block;
   }
 
   .contact {
