@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Link to Quick Overview of MotoGP]()
+- [Quick Overview of MotoGP Website](https://www.loom.com/share/054022105061481ca6bf69e8b01780ee?sid=8b35b57e-8776-4618-9217-058011a33c0e)
 - [Live link to MotoGP](https://ghausalikhan.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
